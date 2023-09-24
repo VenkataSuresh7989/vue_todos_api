@@ -1,0 +1,9 @@
+uvicorn
+FastAPI
+starlette
+passlib
+pydantic
+pymysql
+python-jose
+python-multipart
+cryptography
