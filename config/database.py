@@ -2,12 +2,6 @@ import pymysql
 
 def connect_db():
     try:
-        # conn = pymysql.connect(host="localhost",
-        #                        user="root",
-        #                        password="root",
-        #                        charset='utf8mb4',
-        #                        db="vue_crud",
-        #                        cursorclass=pymysql.cursors.DictCursor)
         conn = pymysql.connect(host="db4free.net",
                                user="vuecrud_7989",
                                password="Suresh@7989",
