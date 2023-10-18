@@ -2,11 +2,17 @@ import pymysql
 
 def connect_db():
     try:
-        conn = pymysql.connect(host="localhost",
-                               user="root",
-                               password="root",
+        # conn = pymysql.connect(host="localhost",
+        #                        user="root",
+        #                        password="root",
+        #                        charset='utf8mb4',
+        #                        db="vue_crud",
+        #                        cursorclass=pymysql.cursors.DictCursor)
+        conn = pymysql.connect(host="db4free.net",
+                               user="vuecrud_7989",
+                               password="Suresh@7989",
                                charset='utf8mb4',
-                               db="vue_crud",
+                               db="vuecrud",
                                cursorclass=pymysql.cursors.DictCursor)
         return conn
     except Exception as e:
