@@ -1,5 +1,6 @@
 uvicorn
 FastAPI
+typing
 starlette
 passlib
 pydantic
@@ -7,4 +8,3 @@ pymysql
 python-jose
 python-multipart
 cryptography
-typing
